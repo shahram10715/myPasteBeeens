@@ -1,5 +1,5 @@
 
-  [1;34m Actions tests.   [0;39m
+ Actions tests. 
 test  test_snowSIA.py : ok.
 test  test_windSIA.py : ok.
 test  test_derailment_SIA.py : ok.
@@ -7,7 +7,7 @@ test  test_prestressing.py : ok.
 test  test_peck_pressure_envelope.py : ok.
 test  mononobe_okabe_test_01.py : ok.
 test  test_earth_pressure.py : ok.
-  [1;34m Load combination tests.   [0;39m
+ Load combination tests. 
 test  add_loads_01.py : ok.
 test  test_add_load_cases.py : ok.
 test  test_combination01.py : ok.
@@ -18,13 +18,13 @@ test  test_combination06.py : ok.
 test  test_combination07.py : ok.
 test  test_davit_01.py : ok.
 test  test_davit_02.py : ok.
-  [1;34m Elements tests.   [0;39m
-  [1;34m   Truss tests.   [0;39m
+ Elements tests. 
+   Truss tests. 
 test  truss_test0.py : ok.
 test  truss_test1.py : ok.
 test  truss_test2.py : ok.
 test  truss_temperat.py : ok.
-  [1;34m   Coordinate transformations tests.   [0;39m
+   Coordinate transformations tests. 
 test  test_linear_crd_transf_2d_01.py : ok.
 test  test_pdelta_crd_transf_2d_01.py : ok.
 test  test_corot_crd_transf_2d_01.py : ok.
@@ -41,8 +41,8 @@ test  test_crd_transf2d_01.py : ok.
 test  test_crd_transf3d_01.py : ok.
 test  test_pdelta_01.py : ok.
 test  test_pdelta_02.py : ok.
-  [1;34m   Beam column tests.   [0;39m
-  [1;34m     Elastic beam-column 2D tests.   [0;39m
+   Beam column tests. 
+     Elastic beam-column 2D tests. 
 test  elastic_beam2d_sign_criteria_01.py : ok.
 test  elastic_beam2d_sign_criteria_02.py : ok.
 test  elastic_beam2d_sign_criteria_03.py : ok.
@@ -50,7 +50,7 @@ test  elastic_beam3d_sign_criteria_01.py : ok.
 test  elastic_beam3d_sign_criteria_02.py : ok.
 test  elastic_beam3d_sign_criteria_03.py : ok.
 test  test_beam3d_sections_axes_orientation.py : ok.
-  [1;34m     Elastic beam-column 3D tests.   [0;39m
+     Elastic beam-column 3D tests. 
 test  beam_test1.py : ok.
 test  cantilever3d_01.py : ok.
 test  cantilever3d_02.py : ok.
@@ -62,11 +62,11 @@ test  cantilever3d_07.py : ok.
 test  cantilever3d_08.py : ok.
 test  cantilever3d_09.py : ok.
 test  cantilever3d_10.py : ok.
-  [1;34m     Force beam-column 2D tests.   [0;39m
+     Force beam-column 2D tests. 
 test  test_force_beam_column_2d_01.py : ok.
 test  test_force_beam_column_2d_02.py : ok.
 test  test_force_beam_column_2d_03.py : ok.
-  [1;34m     Force beam-column 3D tests.   [0;39m
+     Force beam-column 3D tests. 
 test  test_force_beam_column_3d_01.py : ok.
 test  test_force_beam_column_3d_02.py : ok.
 test  test_force_beam_column_3d_03.py : ok.
@@ -78,7 +78,7 @@ test  test_crdTransf_rotation_01.py : ok.
 test  test_frame_01.py : ok.
 test  test_integration_options_01.py : ok.
 test  test_strains_sign_01.py : ok.
-  [1;34m   Zero length elements tests.   [0;39m
+   Zero length elements tests. 
 test  zero_length_element_test_01.py : ok.
 test  zero_length_element_test_02.py : ok.
 test  zero_length_element_test_03.py : ok.
@@ -93,11 +93,11 @@ test  test_strains_sign03.py : ok.
 test  test_strains_sign04.py : ok.
 test  test_winkler.py : ok.
 test  test_quasi_winkler.py : ok.
-  [1;34m   Plane elasticity elements tests.   [0;39m
+   Plane elasticity elements tests. 
 test  test_tri31.py : ok.
 test  test_four_node_quad_01.py : ok.
 test  test_four_node_quad_02.py : ok.
-  [1;34m   Shell elements tests.   [0;39m
+   Shell elements tests. 
 test  test_shell_mitc4_01.py : ok.
 test  test_shell_mitc4_02.py : ok.
 test  test_shell_mitc4_03.py : ok.
@@ -132,10 +132,10 @@ test  test_shell_mitc9_03.py : ok.
 test  test_area_tributaria_01.py : ok.
 test  test_shell_mitc4_natural_coordinates_01.py : ok.
 test  test_transformInternalForces.py : ok.
-  [1;34m   Solid elements tests.   [0;39m
+   Solid elements tests. 
 test  test_brick_00.py : ok.
 test  test_brick_01.py : ok.
-  [1;34m   Misc elements tests.   [0;39m
+   Misc elements tests. 
 test  spring_test_01.py : ok.
 test  spring_test_02.py : ok.
 test  test_elastomeric_bearing_01.py : ok.
@@ -144,15 +144,15 @@ test  test_pot_bearing_02.py : ok.
 test  test_pot_bearing_03.py : ok.
 test  kill_elements_01.py : ok.
 test  kill_elements_02.py : ok.
-  [1;34m Solver tests.   [0;39m
+ Solver tests. 
 test  superlu_solver_test_01.py : ok.
-  [1;34m   Constraint handler tests.   [0;39m
+   Constraint handler tests. 
 test  plain_handler_test_01.py : ok.
 test  transformation_handler_test_01.py : ok.
 test  transformation_handler_test_02.py : ok.
 test  transformation_handler_test_03.py : ok.
 test  lagrange_handler_test_01.py : ok.
-  [1;34m   Eigenvalue solution tests.   [0;39m
+   Eigenvalue solution tests. 
 test  cantilever_eigenmodes_01.py : ok.
 test  cantilever_eigenmodes_02.py : ok.
 test  cantilever_eigenmodes_03.py : ok.
@@ -172,12 +172,12 @@ test  modal_analysis_test_04.py : ok.
 test  modal_analysis_test_05.py : ok.
 test  test_cqc_01.py : ok.
 test  test_band_arpackpp_solver_01.py : ok.
-  [1;34m Preprocessor tests.   [0;39m
-  [1;34m   Simpson rule tests.   [0;39m
+ Preprocessor tests. 
+   Simpson rule tests. 
 test  integra_simpson_fila_i.py : ok.
 test  integra_simpson_fila_j.py : ok.
 test  integra_simpson_fila_k.py : ok.
-  [1;34m   Preprocessor entities tests.   [0;39m
+   Preprocessor entities tests. 
 test  linea.py : ok.
 test  linea_02.py : ok.
 test  k_points.py : ok.
@@ -212,7 +212,7 @@ test  test_nearest_element_01.py : ok.
 test  split_linea_01.py : ok.
 test  split_linea_02.py : ok.
 test  split_linea_03.py : ok.
-  [1;34m   Meshing routines tests.   [0;39m
+   Meshing routines tests. 
 test  test_surface_axes_01.py : ok.
 test  test_surface_meshing_01.py : ok.
 test  test_surface_meshing_02.py : ok.
@@ -221,7 +221,7 @@ test  test_surface_meshing_04.py : ok.
 test  test_surface_meshing_05.py : ok.
 test  test_imposed_meshing.py : ok.
 test  test_truss_generator_01.py : ok.
-  [1;34m   Sets handling tests.   [0;39m
+   Sets handling tests. 
 test  test_exist_set.py : ok.
 test  mueve_set.py : ok.
 test  test_set_01.py : ok.
@@ -236,9 +236,9 @@ test  test_sets_and_grids.py : ok.
 test  test_get_bnd_01.py : ok.
 test  test_fill_downwards_01.py : ok.
 test  test_get_mesh_components_01.py : ok.
-  [1;34m   Preprocessor grid model tests.   [0;39m
+   Preprocessor grid model tests. 
 test  test_grid_model_01.py : ok.
-  [1;34m Displacement constraints tests.   [0;39m
+ Displacement constraints tests. 
 test  remove_fix_01.py : ok.
 test  remove_fix_02.py : ok.
 test  test_elastic_bearing_01.py : ok.
@@ -254,7 +254,7 @@ test  test_glue_node_to_element_03.py : ok.
 test  test_glue_node_to_element_04.py : ok.
 test  test_glue_node_to_element_05.py : ok.
 test  test_glue_node_to_element_06.py : ok.
-  [1;34m Loads tests.   [0;39m
+ Loads tests. 
 test  beam2dNodalLoad.py : ok.
 test  beam2dNodalLoad02.py : ok.
 test  beam2dPointLoad.py : ok.
@@ -293,8 +293,8 @@ test  test_ground_motion_05.py : ok.
 test  test_ground_motion_06.py : ok.
 test  test_ground_motion_07.py : ok.
 test  test_ground_motion_08.py : ok.
-  [1;34m Materials tests.   [0;39m
-  [1;34m   Uniaxial materials tests.   [0;39m
+ Materials tests. 
+   Uniaxial materials tests. 
 test  test_elasticpp_material_01.py : ok.
 test  test_steel01.py : ok.
 test  test_steel02.py : ok.
@@ -306,17 +306,17 @@ test  test_HA25_01.py : ok.
 test  test_HA25_02.py : ok.
 test  test_HP45_01.py : ok.
 test  test_HP45_02.py : ok.
-  [1;34m     EHE reinforcing steel.   [0;39m
+     EHE reinforcing steel. 
 test  test_B400S_01.py : ok.
 test  test_B400S_02.py : ok.
 test  test_B500S_01.py : ok.
 test  test_B500S_02.py : ok.
-  [1;34m     SIA reinforcing steel.   [0;39m
+     SIA reinforcing steel. 
 test  test_B500A_01.py : ok.
 test  test_B500A_02.py : ok.
 test  test_B500B_01.py : ok.
 test  test_B500B_02.py : ok.
-  [1;34m     cable material.   [0;39m
+     cable material. 
 test  test_cable_material01.py : ok.
 test  test_cable_material02.py : ok.
 test  test_cable_material03.py : ok.
@@ -325,13 +325,13 @@ test  test_cable_material05.py : ok.
 test  test_cable_material06.py : ok.
 test  test_cable_material07.py : ok.
 test  test_material_elast_no_traccion.py : ok.
-  [1;34m     PY materials.   [0;39m
+     PY materials. 
 test  py_simple1_test.py : ok.
-  [1;34m   nD materials tests.   [0;39m
+   nD materials tests. 
 test  test_elastic_isotropic_plane_strain_2d_01.py : ok.
 test  test_elastic_isotropic_plane_stress_2d_01.py : ok.
 test  test_elastic_isotropic_3d_01.py : ok.
-  [1;34m   Section geometry tests.   [0;39m
+   Section geometry tests. 
 test  test_spot_01.py : ok.
 test  test_segment_01.py : ok.
 test  test_circular_region_01.py : ok.
@@ -344,12 +344,12 @@ test_geom_caract_mec_02: ok.
 test  test_mass_properties_03.py : ok.
 test  test_mass_properties_04.py : ok.
 test  test_geom_params_torsion_ehe_01.py : ok.
-  [1;34m   Steel sections tests.   [0;39m
+   Steel sections tests. 
 test  test_aisc_w_shapes.py : ok.
 test  test_aisc_hss_shapes.py : ok.
 test  test_steel_shape_01.py : ok.
 test  test_steel_shape_02.py : ok.
-  [1;34m   Elastic section tests.   [0;39m
+   Elastic section tests. 
 test  test_elastic_section_2d_sign_convention_01.py : ok.
 test  test_elastic_section_2d_01.py : ok.
 test  test_elastic_shear_section_2d_01.py : ok.
@@ -361,7 +361,7 @@ test  test_section_rotation_3d_01.py : ok.
 test  test_section_rotation_3d_02.py : ok.
 test  test_section_rotation_3d_03.py : ok.
 test  test_section_rotation_3d_04.py : ok.
-  [1;34m   Fiber section tests.   [0;39m
+   Fiber section tests. 
 test  test_reg_cuad_01.py : ok.
 test  test_capa_armadura_recta_01.py : ok.
 test  test_fiber_section_discretization_error_01.py : ok.
@@ -393,6 +393,7 @@ test  test_tangent_stiffness_01.py : ok.
 test  test_section_aggregator_01.py : ok.
 test  test_fiber_section_shear3d_01.py : ok.
 test  test_fiber_section_shear3d_02.py : ok.
+XC::FiberSection3d::GetInteractionDiagram; error in computation of interaction diagram (0.00513182) seems too big.
 test  test_interaction_diagram01.py : ok.
 test  test_interaction_diagram02.py : ok.
 test  test_interaction_diagram03.py : ok.
@@ -402,7 +403,7 @@ test  test_interaction_diagram06.py : ok.
 test  test_shear_01.py : ok.
 test  test_shear_02.py : ok.
 test  plastic_hinge_on_IPE200.py : ok.
-  [1;34m   RC sections test.   [0;39m
+   RC sections test. 
 test  test_Ecm_concrete.py : ok.
 test  test_EHEconcrete.py-fcm : ok.
 test  test_EHEconcrete.py-fctm : ok.
@@ -412,22 +413,22 @@ test  test_EHEconcrete.py-Ecm : ok.
 test  test_EHEconcrete.py-Epsc2 : ok.
 test  test_EHEconcrete.py-Epscu2 : ok.
 test  test_EHEconcrete.py-ExpN : ok.
-  [1;34m     Crack amplitude determination tests (EHE-08).   [0;39m
+     Crack amplitude determination tests (EHE-08). 
 test  test_crack_control_01.py : ok.
 test  test_crack_control_02.py : ok.
 test  test_crack_control_03.py : ok.
 test  test_crack_control_04.py : ok.
 test  test_crack_control_05.py : ok.
 test  test_crack_control_06.py : ok.
-  [1;34m     Shear resistance determination tests (EHE-08).   [0;39m
+     Shear resistance determination tests (EHE-08). 
 test  test_shear_ehe08_01.py : ok.
 test  test_shear_ehe08_02.py : ok.
 test  test_shear_ehe08_03.py : ok.
 test  test_shear_ehe08_04.py : ok.
 test  test_shear_ehe08_05.py : ok.
-  [1;34m     Misc. (EHE-08).   [0;39m
+     Misc. (EHE-08). 
 test  test_concrete_corbel_ehe.py : ok.
-  [1;34m    EC2 tests.   [0;39m
+    EC2 tests. 
 test  test_EC2Concrete.py-fcm : ok.
 test  test_EC2Concrete.py-fctm : ok.
 test  test_EC2Concrete.py-fctk005 : ok.
@@ -448,7 +449,7 @@ test  test_smearedCracking_03.py : ok.
 test  test_smearedCracking_04.py : ok.
 test  test_smearedCracking_05.py : ok.
 test  test_smearedCracking_06.py : ok.
-  [1;34m    EC3 tests.   [0;39m
+    EC3 tests. 
 test  test_buckling_resistance_01.py : ok.
 test  test_lateral_torsional_buckling00.py : ok.
 test  test_lateral_torsional_buckling01.py : ok.
@@ -458,18 +459,18 @@ test  test_cross_section_verification.py : ok.
 test  test_beam_contrpnt.py : ok.
 test  test_biax_bend_coeff.py : ok.
 test  test_classif.py : ok.
-  [1;34m     SIA 262 tests.   [0;39m
+     SIA 262 tests. 
 test  sia262_concrete_01.py : ok.
 test  shear_01.py : ok.
 test  test_anchorage_length.py : ok.
 test  test_crack_control_01.py : ok.
-  [1;34m     SIA 263 tests.   [0;39m
+     SIA 263 tests. 
 test  test_coefs_fatique_SIA263.py : ok.
-  [1;34m   Plate and membrane materials.   [0;39m
+   Plate and membrane materials. 
 test  test_material_elastic_membrane_plate_section_01.py : ok.
 test  test_material_elastic_plate_section_01.py : ok.
 test  test_inercia_torsion_cajon.py : ok.
-  [1;34m   Prestressing.   [0;39m
+   Prestressing. 
 test  test_layout2D_frictLoss_prestress_tendon.py : ok.
 test  test_layout3D_frictLoss_prestress_tendon.py : ok.
 test  test_anchorageLoss_prestress_tendon_01.py : ok.
@@ -480,7 +481,7 @@ test  test_loss_prestress_units_01.py : ok.
 test  test_deflection_prestressed_beam_01.py : ok.
 test  test_short_term_loss_prestress_01.py : ok.
 test  test_short_term_loss_prestress_02.py : ok.
-  [1;34m   Other materials tests.   [0;39m
+   Other materials tests. 
 test  test_elastomeric_bearing_stiffness.py : ok.
 test  test_anchor_bolt01.py : ok.
 test  test_compound_section.py : ok.
@@ -489,11 +490,11 @@ test  test_creep_02.py : ok.
 test  test_creep_03.py : ok.
 test  test_shrinkage_01.py : ok.
 test  test_steel_relaxation_01.py : ok.
-  [1;34m   Steel design verifications (EAE).   [0;39m
+   Steel design verifications (EAE). 
 test  test_steel_corbel_weld.py : ok.
 test  test_simple_shear_welded_web.py : ok.
 test  test_weld_bead_strength.py : ok.
-  [1;34m Database tests (MySQL, Berkeley db, sqlite,...).   [0;39m
+ Database tests (MySQL, Berkeley db, sqlite,...). 
 test  test_database_08.py : ok.
 test  test_database_09.py : ok.
 test  test_database_10.py : ok.
@@ -506,9 +507,10 @@ test  sqlite_test_01.py : ok.
 test  sqlite_test_02.py : ok.
 test  sqlite_test_03.py : ok.
 test  readln_test_01.py : ok.
-  [1;34m Verifiyng misc. utilities.   [0;39m
+ Verifiyng misc. utilities. 
 rcond=  0.3
-  [1;34m Verifiying routines for rough calculations,...   [0;39m
+ERROR:root:rcond.py ERROR.
+ Verifiying routines for rough calculations,... 
 test  test_punzo01.py : ok.
 test  test_punzo02.py : ok.
 test  test_min_dim_abut_support.py : ok.
@@ -528,11 +530,11 @@ test  test_predim_diaphragm_wall.py : ok.
 test  test_dome.py : ok.
 test  test_dome_02.py : ok.
 test  test_hypar.py : ok.
-  [1;34m Verifiying routines for post processing.   [0;39m
+ Verifiying routines for post processing. 
 test  test_export_shell_internal_forces.py : ok.
-  [1;34m   limit state checking.   [0;39m
+   limit state checking. 
 test  test_shell_normal_stresses_uls_checking.py : ok.
 test  test_shear_uls_checking.py : ok.
-148.943211483 seconds
+148.044432932 seconds
 462 tests
-.32238790364285714285 seconds/test
+.32044249552380952380 seconds/test
