@@ -1,0 +1,57 @@
+Building sites … ERROR 2019/10/20 23:01:43 render of "page" failed: 
+execute of template failed: template: _default/single.html:34:7: executing "main" at <partial "sidebar.html" .>: 
+error calling partial: "/home/sh/shlug/shirazlug.frama.io/themes/hugo_theme_robust/layouts/partials/sidebar.html:6:14": 
+execute of template failed: template: partials/sidebar.html:4:7: 
+executing "partials/sidebar.html" at <partial "author.html" .>: 
+error calling partial: "/home/sh/shlug/shirazlug.frama.io/themes/hugo_theme_robust/layouts/partials/author.html:6:14": 
+execute of template failed: template: partials/author.html:6:14: 
+executing "partials/author.html" at <.thumbnail>: can't evaluate field thumbnail in type string
+
+
+ERROR 2019/10/20 23:01:43 render of "page" failed: execute of
+template failed: template: _default/single.html:34:7: 
+executing "main" at <partial "sidebar.html" .>: 
+error calling partial: "/home/sh/shlug/shirazlug.frama.io/themes/hugo_theme_robust/layouts/partials/sidebar.html:6:14": 
+execute of template failed: template: partials/sidebar.html:4:7: 
+executing "partials/sidebar.html" at <partial "author.html" .>: 
+error calling partial: "/home/sh/shlug/shirazlug.frama.io/themes/hugo_theme_robust/layouts/partials/author.html:6:14": 
+execute of template failed: template: partials/author.html:6:14: 
+executing "partials/author.html" at <.thumbnail>: can't evaluate field thumbnail in type string
+
+
+ERROR 2019/10/20 23:01:43 render of "page" failed: 
+execute of template failed: template: _default/single.html:34:7: 
+executing "main" at <partial "sidebar.html" .>: 
+error calling partial: "/home/sh/shlug/shirazlug.frama.io/themes/hugo_theme_robust/layouts/partials/sidebar.html:6:14": 
+execute of template failed: template: partials/sidebar.html:4:7: 
+executing "partials/sidebar.html" at <partial "author.html" .>: 
+error calling partial: "/home/sh/shlug/shirazlug.frama.io/themes/hugo_theme_robust/layouts/partials/author.html:6:14": 
+execute of template failed: template: partials/author.html:6:14: 
+executing "partials/author.html" at <.thumbnail>: can't evaluate field thumbnail in type string
+
+
+ERROR 2019/10/20 23:01:43 render of "page" failed: 
+execute of template failed: template: _default/single.html:34:7: 
+executing "main" at <partial "sidebar.html" .>: 
+error calling partial: "/home/sh/shlug/shirazlug.frama.io/themes/hugo_theme_robust/layouts/partials/sidebar.html:6:14": 
+execute of template failed: template: partials/sidebar.html:4:7: 
+executing "partials/sidebar.html" at <partial "author.html" .>: 
+error calling partial: "/home/sh/shlug/shirazlug.frama.io/themes/hugo_theme_robust/layouts/partials/author.html:6:14": 
+execute of template failed: template: partials/author.html:6:14: 
+executing "partials/author.html" at <.thumbnail>: can't evaluate field thumbnail in type string
+
+
+Total in 323 ms
+Error: Error building site: failed to render pages: render of "page" failed: 
+execute of template failed: template: _default/single.html:34:7: 
+executing "main" at <partial "sidebar.html" .>: 
+error calling partial: "/home/sh/shlug/shirazlug.frama.io/themes/hugo_theme_robust/layouts/partials/sidebar.html:6:14": 
+execute of template failed: template: partials/sidebar.html:4:7: 
+executing "partials/sidebar.html" at <partial "author.html" .>: 
+error calling partial: "/home/sh/shlug/shirazlug.frama.io/themes/hugo_theme_robust/layouts/partials/author.html:6:14": 
+execute of template failed: template: partials/author.html:6:14: 
+executing "partials/author.html" at <.thumbnail>: can't evaluate field thumbnail in type string
+
+
+
+
