@@ -10,6 +10,3 @@ fi
 PS1='\e[0;34m[\w] \$ \e[m \n'
 #PS1='\$ '
 
-
-alias ppack='ssh root@195.248.242.74'
-
