@@ -1,3 +1,8 @@
+"""
+for more information read the following page:
+https://en.wikipedia.org/wiki/Spirograph
+"""
+
 from matplotlib import pyplot as plt
 import numpy as np
 
