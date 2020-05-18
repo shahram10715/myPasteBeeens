@@ -26,10 +26,10 @@ while True:
     xlist.append(xt)
     ylist.append(yt)
     if (ang%360 == 0):
-        if ((np.around(xt, 1) == np.around(x0, 1)) and
-            (np.around(yt, 1) == np.around(y0, 1))):
+        if (np.around(xt, 3) == np.around(x0, 3)):
             break
     
-
+print('k= ', k)
+print('l= ', l)
 plt.plot(xlist, ylist)
 plt.show()
