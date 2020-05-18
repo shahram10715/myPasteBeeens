@@ -1,68 +1,35 @@
-import numpy as np
 from matplotlib import pyplot as plt
+import numpy as np
 
-
-l = np.random.uniform(0.3, 0.7)
-k = np.random.uniform(0.3, 0.7)
+l = np.random.rand()
+k = np.random.rand()
+l = np.around(l, 2)
+k = np.around(k, 2)
 xlist = []
 ylist = []
 
+def xtfunc(ang):
+    return ((1-k)*np.cos(np.radians(ang)) + l*k*np.cos((1-k)/k*np.radians(ang)))
 
-for cnt in range(20000):
-    xt = (1-k)*np.cos(np.radians(cnt))+l*k*np.cos(np.radians((l-k)/k*cnt))
-    yt = (1-k)*np.sin(np.radians(cnt))-l*k*np.sin(np.radians((l-k)/k*cnt))
+def ytfunc(ang):
+    return ((1-k)*np.sin(np.radians(ang)) - l*k*np.sin((1-k)/k*np.radians(ang)))
+
+x0 = xtfunc(0)
+y0 = ytfunc(0)
+xlist.append(x0)
+ylist.append(y0)
+
+while True:
+    ang = len(xlist)
+    xt = xtfunc(ang)
+    yt = ytfunc(ang)
     xlist.append(xt)
     ylist.append(yt)
+    if (ang%360 == 0):
+        if ((np.around(xt, 1) == np.around(x0, 1)) and
+            (np.around(yt, 1) == np.around(y0, 1))):
+            break
     
 
 plt.plot(xlist, ylist)
 plt.show()
-
-
-"""
-this is a better solution but still needs some work
-
-
-
-
-from matplotlib import pyplot as plt
-import numpy as np
-
-
-l = np.random.rand()
-k = np.random.rand()
-
-xlist = []
-ylist = []
-
-
-x0 = (1-k)*np.cos(np.radians(0))+l*k*np.cos(np.radians((l-k)/k*0))
-y0 = (1-k)*np.sin(np.radians(0))-l*k*np.sin(np.radians((l-k)/k*0))
-
-xlist.append(x0)
-ylist.append(y0)
-
-xt = (1-k)*np.cos(np.radians(1))+l*k*np.cos(np.radians((l-k)/k*1))
-yt = (1-k)*np.sin(np.radians(1))-l*k*np.sin(np.radians((l-k)/k*1))
-
-xlist.append(xt)
-ylist.append(yt)
-
-angdeg = 2
-
-while ((np.around(xt, 5) != np.around(x0, 5)) 
-       and (np.around(yt, 5) != np.around(y0, 5))):
-    xt = (1-k)*np.cos(np.radians(angdeg))+l*k*np.cos(np.radians((l-k)/k*angdeg))
-    yt = (1-k)*np.sin(np.radians(angdeg))-l*k*np.sin(np.radians((l-k)/k*angdeg))
-    #xlist.append(xt)
-    #ylist.append(yt)
-    print(xt)
-    print(yt)
-    angdeg = angdeg + 1
-    plt.plot(xt, yt)
-    plt.show()
-
-
-plt.plot(xlist, ylist)
-plt.show()
-"""
