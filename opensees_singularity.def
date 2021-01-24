@@ -1,0 +1,32 @@
+BootStrap: library
+From: debian:10
+Fingerprints: 
+
+%post
+############################################################################################
+# To build this def file run the following command in terminal after installing singularity:
+# sudo singularity build opensees.sif opensees.def
+#
+# To run the built sif file run the following command
+# singularity run opensees.sif
+#
+# After running the above command you can run OpenSees from everwhere
+# (be careful about capital letters)
+############################################################################################
+cd /home
+apt update
+apt install -y git make tcl8.6 tcl8.6-dev gcc g++ gfortran vim
+mkdir bin lib
+git clone https://github.com/OpenSees/OpenSees.git
+cd OpenSees
+cp ./MAKES/Makefile.def.EC2-UBUNTU ./Makefile.def
+sed -i 's,'^HOME.*$','HOME="/home"','  Makefile.def
+make
+
+%environment
+export PATH=/home/bin:$PATH
+
+%runscript
+bash
+
+%labels
