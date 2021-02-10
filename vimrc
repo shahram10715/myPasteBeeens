@@ -13,22 +13,7 @@ inoremap ( ()<left>
 inoremap [ []<left>
 inoremap { {}<left>
 
-call plug#begin()
-Plug 'mattn/emmet-vim'
-Plug 'JuliaEditorSupport/julia-vim'
-Plug 'ternjs/tern_for_vim', { 'do' : 'npm install' }
-call plug#end()
 
-
-
-
-
-
-
-
-
-filetype plugin on
-set omnifunc=syntaxcomplete#Complete
 
 set nocompatible              " be iMproved, required
 filetype off                  " required
