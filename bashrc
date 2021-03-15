@@ -116,3 +116,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
+alias gitadd="git add -A"
+alias gitcommit="git commit -a --allow-empty-message -m ''"
+alias pyserv="python -m http.server 8000 --bind 127.0.0.1"
