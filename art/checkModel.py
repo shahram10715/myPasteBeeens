@@ -1,5 +1,4 @@
 import numpy as np
-from numpy.linalg.linalg import eigvals
 
 np.set_printoptions(linewidth=200)
 
