@@ -19,7 +19,8 @@ transmission-* \
 shotwell \
 gnome-sound-recorder \
 gnome-software \
-software-properties-gtk
+software-properties-gtk \
+gnome-games
 
 
 # autoremove
