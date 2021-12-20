@@ -17,8 +17,9 @@ rhythmbox \
 mozc-* \
 transmission-* \
 shotwell \
-gnome-sound-recorder
-
+gnome-sound-recorder \
+gnome-software \
+software-properties-gtk
 
 
 # autoremove
