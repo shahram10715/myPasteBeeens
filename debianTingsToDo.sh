@@ -34,6 +34,7 @@ sudo apt -y install \
 bash-completion \
 gnome-multi-writer \
 git \
+wget \
 neofetch \
 network-manager-openvpn-gnome \
 vlc
