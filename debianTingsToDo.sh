@@ -32,6 +32,7 @@ sudo apt -y upgrade
 # install needed packages
 sudo apt -y install \
 bash-completion \
+gnome-multi-writer \
 git \
 neofetch \
 network-manager-openvpn-gnome \
