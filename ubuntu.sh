@@ -16,6 +16,7 @@ neofetch \
 gnome-multi-writer \
 gnome-shell-extensions \
 gnome-tweak-tool \
-python3-pip
+python3-pip \
+vlc
 
 
