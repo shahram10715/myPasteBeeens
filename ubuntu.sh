@@ -18,6 +18,7 @@ gnome-shell-extensions \
 gnome-tweak-tool \
 python3-pip \
 vlc \
-curl
+curl \
+simple-scan
 
 
