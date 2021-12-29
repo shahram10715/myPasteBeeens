@@ -17,6 +17,7 @@ gnome-multi-writer \
 gnome-shell-extensions \
 gnome-tweak-tool \
 python3-pip \
-vlc
+vlc \
+curl
 
 
