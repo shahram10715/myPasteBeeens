@@ -40,7 +40,7 @@ network-manager-openvpn-gnome \
 vlc
 
 
-echo "bind 'set completion-ignore-case on'" >> ~/.bashrc
+echo "bind 'set completion-ignore-case on'">>~/.bashrc
 
 
 
