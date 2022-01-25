@@ -1,0 +1,17 @@
+{
+
+  "manifest_version": 2,
+  "name": "tp",
+  "version": "1.0",
+
+
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.tutorialspoint.com/*"],
+      "js": ["tp.js"]
+    }
+  ]
+
+}
+
